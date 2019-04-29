@@ -10668,8 +10668,41 @@ hr.light {
 header.header {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
+  background: url("header1.jpg");
+  background-position: center;
+  background-position-y: 99%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.header.header2 {
+  background: url("header2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.header.header3 {
   background: url("header3.jpg");
   background-position: center;
+  background-position-y: 1%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.header.header4 {
+  background: url("header4.jpg");
+  background-position: center;
+  background-position-y: 1%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.header.header5 {
+  background: url("header5.jpg");
+  background-position: center;
+  background-position-y: 1%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
