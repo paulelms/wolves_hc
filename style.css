@@ -10668,41 +10668,9 @@ hr.light {
 header.header {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: url("header1.jpg");
+  background-image: url("header1.jpg");
   background-position: center;
   background-position-y: 99%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-header.header.header2 {
-  background: url("header2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-header.header.header3 {
-  background: url("header3.jpg");
-  background-position: center;
-  background-position-y: 1%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-header.header.header4 {
-  background: url("header4.jpg");
-  background-position: center;
-  background-position-y: 1%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-header.header.header5 {
-  background: url("header5.jpg");
-  background-position: center;
-  background-position-y: 1%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -10714,7 +10682,8 @@ header.header h1 {
 
 @media (min-width: 100px) {
   header.header {
-    margin-top: 72px;
+    /* margin-top: 72px; */
+    height: 100vh;
   }
 }
 
@@ -10798,4 +10767,29 @@ a.phone-link {
 }
 a.phone-link:hover {
   color: #b01d1e;
+}
+
+.header1 header.header {
+  background-image: url("header1.jpg");
+}
+.header2 header.header {
+  background-image: url("header2.jpg");
+  background-position-y: 58%;
+}
+.header3 header.header {
+  background-image: url("header3.jpg");
+  background-position-y: 1%;
+}
+.header4 header.header {
+  background-image: url("header4.jpg");
+  background-position-y: 99%;
+}
+.header5 header.header {
+  background-image: url("header5.jpg");
+  background-position-y: 99%;
+}
+@media (min-width: 100px) {
+  .header4 header.header {
+    background-position-x: 33%;
+  }
 }
