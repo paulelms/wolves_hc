@@ -169,15 +169,6 @@ a.phone-link:hover {
   }
 }
 
-#girls {
-  background-image: url("bg/ice.jpg");
-  background-position: center;
-  background-position-y: 99%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
 header.header {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
