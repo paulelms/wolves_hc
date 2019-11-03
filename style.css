@@ -23,8 +23,8 @@ html {
 /* theme changes {{{ */
 .btn-primary {
   color: #fff;
-  background-color: #b01d1e;
-  border-color: #b01d1e;
+  background-color: #a53434;
+  border-color: #a53434;
 }
 .btn-primary:hover {
   color: #fff;
@@ -45,7 +45,8 @@ html {
   border-color: #e23a0d;
 }
 .bg-primary {
-  background-color: #b01d1e !important;
+  /* background-color: #b01d1e !important; */
+  background-color: #a53434 !important;
 }
 .text-white-50 {
   color: rgba(255, 255, 255, 0.9) !important;
@@ -66,7 +67,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #b01d1e;
+  border-color: #a53434;
 }
 hr.light {
   border-color: #fff;
@@ -86,7 +87,7 @@ a.phone-link {
   text-decoration-style: dotted;
 }
 a.phone-link:hover {
-  color: #b01d1e;
+  color: #a53434;
 }
 
 #mainNav {
@@ -120,11 +121,11 @@ a.phone-link:hover {
 
 #mainNav .navbar-nav .nav-item .nav-link:hover,
 #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #b01d1e;
+  color: #a53434;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #b01d1e !important;
+  color: #a53434 !important;
 }
 
 @media (min-width: 992px) {
@@ -158,14 +159,23 @@ a.phone-link:hover {
       color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-      color: #b01d1e;
+      color: #a53434;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
       color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-      color: #b01d1e;
+      color: #a53434;
   }
+}
+
+#girls {
+  background-image: url("bg/ice.jpg");
+  background-position: center;
+  background-position-y: 99%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 header.header {
