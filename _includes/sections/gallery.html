@@ -1,0 +1,162 @@
+<section id="gallery">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="gallery/1.jpg">
+            <img class="img-fluid" src="gallery/1_thumb.jpg" alt="">
+            <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">
+                Тренировки на льду
+                </div>
+                <div class="project-name">
+                ФОК УМКА
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="gallery/2.jpg">
+            <img class="img-fluid" src="gallery/2_thumb.jpg" alt="">
+            <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">
+                Участие в турнирах
+                </div>
+                <div class="project-name">
+                Златоуст
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="gallery/3.jpg">
+            <img class="img-fluid" src="gallery/3_thumb.jpg" alt="">
+            <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">
+                Обучение через игру
+                </div>
+                <div class="project-name">
+                На сборах
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="gallery/4.jpg">
+            <img class="img-fluid" src="gallery/4_thumb.jpg" alt="">
+            <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">
+                Общая физическая подготовка
+                </div>
+                <div class="project-name">
+                На сборах
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="gallery/5.jpg">
+            <img class="img-fluid" src="gallery/5_thumb.jpg" alt="">
+            <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">
+                Тренировочные сборы
+                </div>
+                <div class="project-name">
+                Горное ущелье
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="gallery/6.jpg">
+            <img class="img-fluid" src="gallery/6_thumb.jpg" alt="">
+            <div class="portfolio-box-caption p-3">
+                <div class="project-category text-white-50">
+                Мастер-классы с ведущими хокеистами
+                </div>
+                <div class="project-name">
+                МК с Ильей Самсоновым
+                </div>
+            </div>
+            </a>
+        </div>
+        </div>
+    </div>
+</section>
+
+<style>
+#gallery .container-fluid {
+  max-width: 1920px;
+}
+
+#gallery .container-fluid .portfolio-box {
+  position: relative;
+  display: block;
+}
+
+#gallery .container-fluid .portfolio-box .portfolio-box-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(176, 29, 30, 0.9);
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+
+#gallery .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#gallery .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+
+#gallery .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+</style>
+
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script>
+(function($) {
+  "use strict"; // Start of use strict
+
+  // Magnific popup calls
+  $('#gallery').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0, 1]
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    }
+  });
+
+})(jQuery); // End of use strict
+
+</script>

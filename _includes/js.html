@@ -1,3 +1,4 @@
+<script>
 (function($) {
   "use strict"; // Start of use strict
 
@@ -39,20 +40,20 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Magnific popup calls
-  $('#gallery').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
-  });
-
 })(jQuery); // End of use strict
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+ym(56058580, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true
+});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56058580" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
